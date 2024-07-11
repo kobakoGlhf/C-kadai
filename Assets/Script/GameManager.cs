@@ -15,11 +15,11 @@ public class GameManager : MonoBehaviour
     //BeasItem _boots;
 
     //テスト用。後で場所ごとにアイテムを取得してください
-    [SerializeField] BeasItem _hood;
-    [SerializeField] BeasItem _plate;
-    [SerializeField] BeasItem _pants;
-    [SerializeField] BeasItem _gloves;
-    [SerializeField] BeasItem _boots;
+    [SerializeField] ItemBeas _hood;
+    [SerializeField] ItemBeas _plate;
+    [SerializeField] ItemBeas _pants;
+    [SerializeField] ItemBeas _gloves;
+    [SerializeField] ItemBeas _boots;
 
     // Start is called before the first frame update
     void Start()

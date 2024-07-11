@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public abstract class BeasItem : MonoBehaviour
+public abstract class ItemBeas : MonoBehaviour
 {
     public int _healthPoint;
     public int _attackPoint;
